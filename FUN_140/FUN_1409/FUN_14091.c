@@ -276,8 +276,8 @@ void FUN_140910600(byte *param_1)
 }
 
 
-
-void FUN_140910630(int *param_1,uint param_2,char **resultStr)
+// void FUN_140910630(int *param_1,uint param_2,char **resultStr)
+void FUN_140910630(int *param_1, uint optionBits, char **resultStr)
 
 {
     longlong lVar1;
@@ -308,7 +308,7 @@ void FUN_140910630(int *param_1,uint param_2,char **resultStr)
         *resultStr = "argument not compiled in 16 bit mode";
         goto LAB_1409107f0;
     }
-    if ((param_2 & 0xfffffff0) != 0) {
+    if ((optionBits & 0xfffffff0) != 0) {
         *resultStr = "unknown or incorrect option bit(s) set";
         goto LAB_1409107f0;
     }
@@ -345,7 +345,7 @@ void FUN_140910630(int *param_1,uint param_2,char **resultStr)
             errorMessage = "internal error: missing capturing bracket";
         }
         else {
-            if (((!bVar6) && (iVar2 < 1)) && ((param_2 & 0xf) == 0)) goto LAB_1409107f0;
+            if (((!bVar6) && (iVar2 < 1)) && ((optionBits & 0xf) == 0)) goto LAB_1409107f0;
             puVar3 = (undefined4 *)(*(code *)PTR_FUN_140c1b1e0)(0x6c);
             if (puVar3 != (undefined4 *)0x0) {
                 *puVar3 = 1;
@@ -373,16 +373,16 @@ void FUN_140910630(int *param_1,uint param_2,char **resultStr)
                     puVar3[0x1a] = iVar2;
                 }
                 *(undefined8 *)(puVar3 + 0xe) = 0;
-                if ((param_2 & 1) != 0) {
+                if ((optionBits & 1) != 0) {
                     FUN_14091a0c0(param_1,puVar3,0);
                 }
-                if ((param_2 & 2) != 0) {
+                if ((optionBits & 2) != 0) {
                     FUN_14091a0c0(param_1,puVar3,1);
                 }
-                if ((param_2 & 4) != 0) {
+                if ((optionBits & 4) != 0) {
                     FUN_14091a0c0(param_1,puVar3,2);
                 }
-                if (((puVar3[0x11] == 0) && ((*(byte *)puVar3 & 0x40) == 0)) && ((param_2 & 8) == 0)) {
+                if (((puVar3[0x11] == 0) && ((*(byte *)puVar3 & 0x40) == 0)) && ((optionBits & 8) == 0)) {
                     FUN_140910600(puVar3);
                 }
                 goto LAB_1409107f0;
