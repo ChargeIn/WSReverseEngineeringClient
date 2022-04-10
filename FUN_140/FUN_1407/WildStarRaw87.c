@@ -3747,7 +3747,7 @@ undefined8 FUN_140766a30(longlong param_1)
     lVar2 = *(longlong *)(param_1 + 0x10);
     FUN_14005ea50(param_1,&DAT_ffffffffffffffd0 + lVar2,lVar2 + -0x20,lVar2 + -0x10);
     *(longlong *)(param_1 + 0x10) = *(longlong *)(param_1 + 0x10) + -0x20;
-    FUN_140500a10(param_1);
+    CurrencyHandler(param_1);
     lVar2 = *(longlong *)(param_1 + 0x10);
     FUN_14005ea50(param_1,&DAT_ffffffffffffffd0 + lVar2,lVar2 + -0x20,lVar2 + -0x10);
     *(longlong *)(param_1 + 0x10) = *(longlong *)(param_1 + 0x10) + -0x20;

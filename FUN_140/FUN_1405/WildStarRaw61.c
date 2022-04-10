@@ -7721,7 +7721,7 @@ void FUN_1405546b0(int *param_1,int param_2,int param_3)
     param_1[3] = 300;
     param_1[4] = -1;
     if (*(int *)(lVar4 + 0x6644) == 0x25) {
-        FUN_1403a71f0(lVar4,0,0x65,1);
+        WindowHandlerFunction(lVar4,0,0x65,1);
     }
     return;
 }
@@ -7840,7 +7840,7 @@ void FUN_1405549f0(undefined8 param_1,int param_2)
         DAT_140c7dc6c._4_4_ = 0xffffffff;
         return;
     }
-    FUN_1403a71f0(DAT_140c65898,0,0x65,1);
+    WindowHandlerFunction(DAT_140c65898,0,0x65,1);
     return;
 }
 
@@ -7893,7 +7893,7 @@ void FUN_140554b30(undefined8 param_1,int param_2)
         DAT_140c7dc6c._4_4_ = 0xffffffff;
         return;
     }
-    FUN_1403a71f0(DAT_140c65898,0,0x65,1);
+    WindowHandlerFunction(DAT_140c65898,0,0x65,1);
     return;
 }
 
@@ -7951,7 +7951,7 @@ void FUN_140554c30(undefined8 param_1,int param_2)
             DAT_140c7dc6c._0_4_ = 300;
             DAT_140c7dc6c._4_4_ = 0xffffffff;
             if (*(int *)(DAT_140c65898 + 0x6644) == 0x25) {
-                FUN_1403a71f0(DAT_140c65898,0,0x65,1);
+                WindowHandlerFunction(DAT_140c65898,0,0x65,1);
             }
         }
         else {
@@ -8012,7 +8012,7 @@ void FUN_140554dd0(void)
         DAT_140c7dc6c._0_4_ = 300;
         DAT_140c7dc6c._4_4_ = 0xffffffff;
         if (*(int *)(DAT_140c65898 + 0x6644) == 0x25) {
-            FUN_1403a71f0(DAT_140c65898,0,0x65,1);
+            WindowHandlerFunction(DAT_140c65898,0,0x65,1);
             return;
         }
     }
@@ -8028,7 +8028,7 @@ void FUN_140554ea0(undefined8 *param_1,int param_2)
 
     if (*(int *)((longlong)param_1 + 4) != 0) {
         if ((param_2 != 0) && (*(int *)(DAT_140c65898 + 0x6644) == 0x25)) {
-            FUN_1403a71f0(DAT_140c65898,0,0x65,1);
+            WindowHandlerFunction(DAT_140c65898,0,0x65,1);
         }
         lVar1 = FUN_1403d90d0(DAT_140c65898,*(undefined4 *)((longlong)param_1 + 4));
         if ((lVar1 != 0) && ((*(uint *)(lVar1 + 0x24) & 0x10000) == 0)) {
@@ -10476,7 +10476,7 @@ undefined8 FUN_140558930(uint *param_1,uint param_2,uint param_3,int param_4)
         case 10:
             uVar3 = 0x47;
         LAB_140558adf:
-            FUN_1403a71f0(DAT_140c65898,param_1[1],uVar3,1);
+            WindowHandlerFunction(DAT_140c65898,param_1[1],uVar3,1);
         LAB_140558af4:
             FUN_1400ea3e0(*(undefined8 *)(DAT_140c65898 + 0x7340),"Dialog_Close",&DAT_1409d0bff);
             goto LAB_140558b7c;

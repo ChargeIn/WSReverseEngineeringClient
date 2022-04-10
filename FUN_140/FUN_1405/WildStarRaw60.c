@@ -1243,7 +1243,7 @@ undefined8 FUN_14053b4a0(undefined8 param_1,longlong param_2)
     }
     FUN_1403fa730(param_2);
     FUN_140434900(*(undefined8 *)(param_2 + 0x7fe0));
-    FUN_1403a71f0(param_2,0,0x65,1);
+    WindowHandlerFunction(param_2,0,0x65,1);
     if (DAT_140c63658 != 0) {
         FUN_1400fd770();
     }

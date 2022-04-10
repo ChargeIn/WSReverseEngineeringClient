@@ -27410,7 +27410,7 @@ void FUN_14003e5b0(longlong *param_1) {
     FUN_1400016d0(param_1[9]);
     lVar4 = FUN_14018b280(1);
     if (lVar4 != 0) {
-        FUN_1400f2440(lVar1 + 0x180, "Money", FUN_140500a10);
+        FUN_1400f2440(lVar1 + 0x180, "Money", CurrencyHandler);
         lVar6 = lVar4;
     }
     param_1[0x11] = lVar6;

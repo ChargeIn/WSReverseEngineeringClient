@@ -6684,7 +6684,7 @@ void FUN_140426890(undefined8 param_1)
 {
     FUN_1400ea3e0(param_1,"HideBank",&DAT_1409d0da7);
     if (*(int *)(DAT_140c65898 + 0x6644) == 0x42) {
-        FUN_1403a71f0(DAT_140c65898,0,0x65,1);
+        WindowHandlerFunction(DAT_140c65898,0,0x65,1);
         return;
     }
     return;
@@ -6697,7 +6697,7 @@ void FUN_1404268d0(undefined8 param_1)
 {
     FUN_1400ea3e0(param_1,"HideRealmBank","");
     if (*(int *)(DAT_140c65898 + 0x6644) == 0x43) {
-        FUN_1403a71f0(DAT_140c65898,0,0x65,1);
+        WindowHandlerFunction(DAT_140c65898,0,0x65,1);
         return;
     }
     return;
@@ -6782,7 +6782,7 @@ void FUN_140426ac0(undefined8 param_1)
 {
     FUN_1400ea3e0(param_1,"CloseVendorWindow",&DAT_1409d0d67);
     if (*(int *)(DAT_140c65898 + 0x6644) == 0x31) {
-        FUN_1403a71f0(DAT_140c65898,0,0x65,1);
+        WindowHandlerFunction(DAT_140c65898,0,0x65,1);
         return;
     }
     return;
@@ -6795,7 +6795,7 @@ void FUN_140426b60(undefined8 param_1)
 {
     FUN_1400ea3e0(param_1,"CloseTradeskillTrainerWindow",&DAT_1409d0dcf);
     if (*(int *)(DAT_140c65898 + 0x6644) == 0x2b) {
-        FUN_1403a71f0(DAT_140c65898,0,0x65,1);
+        WindowHandlerFunction(DAT_140c65898,0,0x65,1);
         return;
     }
     return;

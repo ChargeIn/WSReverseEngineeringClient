@@ -6388,7 +6388,7 @@ undefined8 FUN_1403b9720(longlong param_1,undefined4 *param_2)
     if ((lVar1 != 0) && (*(longlong *)(lVar1 + 0x18) != 0)) {
         lVar1 = FUN_1402092a0(*(undefined4 *)(*(longlong *)(lVar1 + 0x18) + 0x14c));
         if ((lVar1 != 0) && (*(int *)(lVar1 + 0x14) == 1)) {
-            FUN_1403a71f0(DAT_140c65898,*(undefined4 *)(param_1 + 0x7d84),0x24);
+            WindowHandlerFunction(DAT_140c65898,*(undefined4 *)(param_1 + 0x7d84),0x24);
         }
     }
     FUN_1404259d0(*(undefined8 *)(param_1 + 0x7340),param_2);

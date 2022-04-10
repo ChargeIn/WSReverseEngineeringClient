@@ -1554,7 +1554,7 @@ void FUN_14045e740(longlong param_1,int param_2)
                 FUN_14060afe0(&local_28,local_20);
             }
             FUN_140437a10(DAT_140c658d8,0x121,0,0,0,0,1);
-            FUN_1403a71f0(DAT_140c65898,0,0x65,1);
+            WindowHandlerFunction(DAT_140c65898,0,0x65,1);
         }
         FUN_1405f9e30(DAT_140c65ba8,DAT_140c65ba8 + 0xc0,param_2);
         if (DAT_140c65b78 != 0) {

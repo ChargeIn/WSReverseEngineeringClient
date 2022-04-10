@@ -685,7 +685,7 @@ undefined8 FUN_1406195b0(void)
         if (plVar3 != (longlong *)0x0) {
             iVar1 = (**(code **)(*plVar3 + 0x38))(plVar3);
             if (iVar1 == 0) {
-                FUN_1403a71f0(DAT_140c65898,*(undefined4 *)(lVar2 + 8),0x1d,1);
+                WindowHandlerFunction(DAT_140c65898,*(undefined4 *)(lVar2 + 8),0x1d,1);
                 return 0;
             }
         }
@@ -748,7 +748,7 @@ undefined8 FUN_140619730(undefined8 param_1,uint *param_2,uint param_3)
         FUN_1400ea3e0(*(undefined8 *)(DAT_140c65898 + 0x7340),"CommodityAuctionsDisabled",&DAT_1409ec70c
                 ,uVar1);
         if ((uVar1 != 0) && (*(int *)(DAT_140c65898 + 0x6644) == 0x4b)) {
-            FUN_1403a71f0(DAT_140c65898,0,0x65,1);
+            WindowHandlerFunction(DAT_140c65898,0,0x65,1);
         }
         *(undefined4 *)(DAT_140c65898 + 0x6f98) = 1;
     }

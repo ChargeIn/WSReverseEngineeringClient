@@ -6254,7 +6254,7 @@ undefined8 FUN_1403db9a0(longlong param_1,int *param_2)
     if ((*(int *)(param_1 + 0x6640) == *param_2) && (lVar2 = FUN_1403d90d0(), lVar2 != 0)) {
         if (param_2[10] != 0) {
             if (param_2[0xc] != 0) {
-                FUN_1403a71f0(param_1,0,0x65,1);
+                WindowHandlerFunction(param_1,0,0x65,1);
                 return 0;
             }
             FUN_1400ea3e0(*(undefined8 *)(param_1 + 0x7340),"InvokeVendorWindow",&DAT_1409e9e94,*param_2);

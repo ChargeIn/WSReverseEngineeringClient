@@ -2022,7 +2022,7 @@ longlong * FUN_14050a3c0(longlong *param_1)
         lVar1 = 0;
     }
     else {
-        FUN_1400f2440(*(longlong *)(DAT_140c65898 + 0x7340) + 0x180,"Money",FUN_140500a10);
+        FUN_1400f2440(*(longlong *)(DAT_140c65898 + 0x7340) + 0x180,"Money",CurrencyHandler);
     }
     param_1[4] = lVar1;
     lVar1 = FUN_14018b280(4);

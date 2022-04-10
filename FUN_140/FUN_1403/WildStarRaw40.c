@@ -7326,7 +7326,7 @@ if ((uVar1 & 1) != uVar2) {
 FUN_1400ea3e0(*(undefined8 *)(DAT_140c65898 + 0x7340),"ItemAuctionsDisabled",&DAT_1409ec954,
 uVar2);
 if ((uVar2 != 0) && (*(int *)(DAT_140c65898 + 0x6644) == 0x4c)) {
-FUN_1403a71f0(DAT_140c65898,0,0x65,1);
+WindowHandlerFunction(DAT_140c65898,0,0x65,1);
 }
 *(undefined4 *)(DAT_140c65898 + 0x6f98) = 1;
 }

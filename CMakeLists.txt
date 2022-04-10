@@ -133,4 +133,8 @@ add_executable(WildstarRE
         FUN_140/FUN_1402/FUN_14021.c
         FUN_140/FUN_1402/FUN_14020.c
         FUN_140/FUN_1401/FUN_14010.c
-        winhttp.h)
+        winhttp.h
+        FUN_140/FUN_1403/MultiplayerWindowHandlerFunction.c
+        FUN_140/FUN_1404/PlayerWindowHandlerFunction.c
+        FUN_140/FUN_1405/CurrencyHandler.c
+        )

@@ -761,7 +761,7 @@ undefined8 FUN_140701800(longlong param_1)
         puVar1 = *(undefined8 **)(param_1 + 0x18);
     }
     if ((*(int *)(puVar1 + 1) != 0) && ((*(int *)(puVar1 + 1) != 1 || (*(int *)puVar1 != 0)))) {
-        FUN_1403a71f0(DAT_140c65898,0,0x65,1);
+        WindowHandlerFunction(DAT_140c65898,0,0x65,1);
         local_res10[0] = *(undefined4 *)(DAT_140c65898 + 0x7d84);
         FUN_1403f4900(DAT_140c65898,0xd2,local_res10);
     }
