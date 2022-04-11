@@ -1234,7 +1234,7 @@ void FUN_1400d5220(longlong param_1) {
     } while (uVar11 < 0x97);
     lVar2 = *(longlong * )(param_1 + 400);
     *(undefined8 * )((longlong) & uStack32 + lVar5) = 0x1400d52ab;
-    FUN_1400569b0(lVar2, "Apollo.Window");
+    LuaElementLoaderOrSo(lVar2, "Apollo.Window");
     puVar3 = *(undefined8 * *)(lVar2 + 0x10);
     *puVar3 = puVar3[-2];
     *(undefined4 * )(puVar3 + 1) = *(undefined4 * )(puVar3 + -1);

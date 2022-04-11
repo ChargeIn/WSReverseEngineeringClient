@@ -443,7 +443,7 @@ undefined8 FUN_140154ac0(longlong param_1) {
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1, "Apollo.ApolloCursor");
+    LuaElementLoaderOrSo(param_1, "Apollo.ApolloCursor");
     puVar1 = *(undefined8 * *)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 * )(puVar1 + 1) = *(undefined4 * )(puVar1 + -1);
@@ -5334,7 +5334,7 @@ void FUN_14015af00(longlong param_1) {
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1, "Apollo.Menu");
+    LuaElementLoaderOrSo(param_1, "Apollo.Menu");
     puVar1 = *(undefined8 * *)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 * )(puVar1 + 1) = *(undefined4 * )(puVar1 + -1);
@@ -6172,7 +6172,7 @@ void FUN_14015c540(longlong param_1) {
         puVar9 = puVar9 + 2;
     } while (uVar10 == 0);
     *(undefined8 * )((longlong) & uStack40 + lVar4) = 0x14015c61f;
-    FUN_1400569b0(lVar2, "Apollo.MenuBarWindow");
+    LuaElementLoaderOrSo(lVar2, "Apollo.MenuBarWindow");
     puVar9 = *(undefined8 * *)(lVar2 + 0x10);
     iVar1 = *(int *) (puVar9 + -1);
     if (iVar1 == 2) {
@@ -11429,7 +11429,7 @@ void FUN_1401654b0(longlong param_1) {
         puVar9 = puVar9 + 2;
     } while (uVar10 < 0x28);
     *(undefined8 * )((longlong) & uStack40 + lVar4) = 0x14016558f;
-    FUN_1400569b0(lVar2, "Apollo.GridWindow");
+    LuaElementLoaderOrSo(lVar2, "Apollo.GridWindow");
     puVar9 = *(undefined8 * *)(lVar2 + 0x10);
     iVar1 = *(int *) (puVar9 + -1);
     if (iVar1 == 2) {

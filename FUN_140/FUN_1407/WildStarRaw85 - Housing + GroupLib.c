@@ -2677,8 +2677,8 @@ undefined4 FUN_140737ce0(longlong param_1)
 }
 
 
-
-undefined8 FUN_140737da0(longlong param_1)
+// undefined8 FUN_140737da0(longlong param_1)
+undefined8 LoadHousingLib(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -2689,7 +2689,7 @@ undefined8 FUN_140737da0(longlong param_1)
     undefined8 local_38;
     undefined4 local_30;
 
-    FUN_1400569b0(param_1,"Game.Housing");
+    LuaElementLoaderOrSo(param_1,"Game.Housing");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -3738,8 +3738,8 @@ undefined8 FUN_14073a110(longlong param_1)
 }
 
 
-
-undefined8 FUN_14073a250(longlong param_1)
+// undefined8 FUN_14073a250(longlong param_1)
+undefined8 LoadMatchMakingEntry(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -3751,7 +3751,7 @@ undefined8 FUN_14073a250(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.MatchMakingEntry");
+    LuaElementLoaderOrSo(param_1,"Game.MatchMakingEntry");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -4874,8 +4874,8 @@ undefined4 FUN_14073c670(longlong param_1)
 }
 
 
-
-undefined8 FUN_14073c7d0(longlong param_1)
+// undefined8 FUN_14073c7d0(longlong param_1)
+undefined8 LoadCustomerSurveyTypeLib(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -4887,7 +4887,7 @@ undefined8 FUN_14073c7d0(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.CustomerSurvey");
+    LuaElementLoaderOrSo(param_1,"Game.CustomerSurvey");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -5563,8 +5563,8 @@ undefined8 FUN_14073d890(longlong param_1)
 }
 
 
-
-undefined4 FUN_14073d980(longlong param_1)
+// undefined4 FUN_14073d980(longlong param_1)
+undefined4 LoadCustomerSurveyLib(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -6291,8 +6291,8 @@ undefined8 FUN_14073e6d0(longlong param_1,short *param_2)
 }
 
 
-
-undefined4 FUN_14073e860(longlong param_1)
+// undefined4 FUN_14073e860(longlong param_1)
+undefined4 LoadIncidentReportLib(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -6305,7 +6305,7 @@ undefined4 FUN_14073e860(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.IncidentReport");
+    LuaElementLoaderOrSo(param_1,"Game.IncidentReport");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -7973,8 +7973,8 @@ undefined8 FUN_140741540(longlong param_1)
 }
 
 
-
-undefined8 FUN_1407415c0(longlong param_1)
+// undefined8 FUN_1407415c0(longlong param_1)
+undefined8 LoadQuestHub(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -7986,7 +7986,7 @@ undefined8 FUN_1407415c0(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.QuestHub");
+    LuaElementLoaderOrSo(param_1,"Game.QuestHub");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -8426,8 +8426,8 @@ undefined8 * FUN_140741ff0(undefined8 *param_1,ulonglong param_2)
 }
 
 
-
-undefined8 FUN_140742040(longlong param_1)
+// undefined8 FUN_140742040(longlong param_1)
+undefined8 LoadCommDialog(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -8439,7 +8439,7 @@ undefined8 FUN_140742040(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.CommDialog");
+    LuaElementLoaderOrSo(param_1,"Game.CommDialog");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -9920,9 +9920,8 @@ undefined8 FUN_140744d00(longlong param_1)
 }
 
 
-
-undefined8 FUN_140744d60(longlong param_1)
-
+// undefined8 FUN_140744d60(longlong param_1)
+undefined8 GroupLibLoader(longlong param_1)
 {
     undefined8 *puVar1;
     longlong lVar2;

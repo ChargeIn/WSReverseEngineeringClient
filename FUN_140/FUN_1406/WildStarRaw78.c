@@ -205,8 +205,8 @@ undefined8 FUN_1406a23d0(longlong param_1)
 }
 
 
-
-undefined4 FUN_1406a2450(longlong param_1)
+// undefined4 FUN_1406a2450(longlong param_1)
+undefined4 LoadGenericMapNode(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -218,7 +218,7 @@ undefined4 FUN_1406a2450(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.GenericMapNode");
+    LuaElementLoaderOrSo(param_1,"Game.GenericMapNode");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -717,8 +717,8 @@ undefined8 FUN_1406a2e40(longlong param_1)
 }
 
 
-
-undefined8 FUN_1406a2ec0(longlong param_1)
+// undefined8 FUN_1406a2ec0(longlong param_1)
+undefined8 LoadContract(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -730,7 +730,7 @@ undefined8 FUN_1406a2ec0(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.Contract");
+    LuaElementLoaderOrSo(param_1,"Game.Contract");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -2025,8 +2025,8 @@ ulonglong FUN_1406a4ea0(int param_1)
 }
 
 
-
-undefined8 FUN_1406a4f80(longlong param_1)
+// undefined8 FUN_1406a4f80(longlong param_1)
+undefined8 LoadHousingPlot(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -2038,7 +2038,7 @@ undefined8 FUN_1406a4f80(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.HousingPlot");
+    LuaElementLoaderOrSo(param_1,"Game.HousingPlot");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -4174,8 +4174,8 @@ undefined8 FUN_1406a9170(undefined4 param_1)
 }
 
 
-
-undefined8 FUN_1406a9230(longlong param_1)
+// undefined8 FUN_1406a9230(longlong param_1)
+undefined8 LoadResidence(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -4187,7 +4187,7 @@ undefined8 FUN_1406a9230(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.Residence");
+    LuaElementLoaderOrSo(param_1,"Game.Residence");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -7106,8 +7106,8 @@ undefined8 FUN_1406ade90(longlong param_1)
 }
 
 
-
-undefined8 FUN_1406adfd0(longlong param_1)
+// undefined8 FUN_1406adfd0(longlong param_1)
+undefined8 LoadDecor(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -7119,7 +7119,7 @@ undefined8 FUN_1406adfd0(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.Decor");
+    LuaElementLoaderOrSo(param_1,"Game.Decor");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -11397,8 +11397,8 @@ undefined8 FUN_1406b5ed0(longlong param_1,longlong param_2)
 }
 
 
-
-undefined8 FUN_1406b63d0(longlong param_1)
+// undefined8 FUN_1406b63d0(longlong param_1)
+undefined8 LoadPetFlair(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -11410,7 +11410,7 @@ undefined8 FUN_1406b63d0(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.PetFlair");
+    LuaElementLoaderOrSo(param_1,"Game.PetFlair");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -11717,8 +11717,8 @@ undefined8 FUN_1406b69b0(longlong param_1)
 }
 
 
-
-undefined8 FUN_1406b6b50(longlong param_1)
+// undefined8 FUN_1406b6b50(longlong param_1)
+undefined8 LoadPetCustomization(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -11730,7 +11730,7 @@ undefined8 FUN_1406b6b50(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.PetCustomization");
+    LuaElementLoaderOrSo(param_1,"Game.PetCustomization");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);

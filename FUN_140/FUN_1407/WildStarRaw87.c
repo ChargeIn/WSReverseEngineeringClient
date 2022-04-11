@@ -1803,9 +1803,8 @@ undefined8 FUN_140761090(longlong param_1)
 }
 
 
-
-undefined8 FUN_1407625f0(undefined8 param_1)
-
+// undefined8 FUN_1407625f0(undefined8 param_1)
+undefined8 PublicEventsLibLoader(undefined8 param_1)
 {
     FUN_140057020(param_1,"PublicEventsLib",&PTR_s_GetActivePublicEventList_140b76100);
     return 1;
@@ -2013,9 +2012,8 @@ undefined8 FUN_140762ed0(longlong param_1)
 }
 
 
-
-undefined4 FUN_140762fb0(longlong param_1)
-
+// undefined4 FUN_140762fb0(longlong param_1)
+undefined4 ContractsLibLoader(longlong param_1)
 {
     undefined8 *puVar1;
     undefined8 uVar2;
@@ -2498,9 +2496,8 @@ undefined8 FUN_140763690(longlong param_1)
 }
 
 
-
-undefined4 FUN_140763df0(longlong param_1)
-
+// undefined4 FUN_140763df0(longlong param_1)
+undefined4 ICCommLibLoader(longlong param_1)
 {
     undefined8 *puVar1;
     undefined8 uVar2;
@@ -3644,9 +3641,8 @@ undefined8 FUN_1407662a0(longlong param_1,undefined4 *param_2)
 }
 
 
-
-undefined8 FUN_140766a30(longlong param_1)
-
+// undefined8 FUN_140766a30(longlong param_1)
+undefined8 FortunesLibLoader(longlong param_1)
 {
     undefined8 *puVar1;
     longlong lVar2;
@@ -3755,9 +3751,8 @@ undefined8 FUN_140766a30(longlong param_1)
 }
 
 
-
-undefined8 FUN_140768e00(longlong param_1)
-
+// undefined8 FUN_140768e00(longlong param_1)
+undefined8 MatchingGameLibLoader(longlong param_1)
 {
     undefined8 *puVar1;
     undefined8 uVar2;
@@ -4265,9 +4260,8 @@ undefined8 FUN_14076ac30(void)
 }
 
 
-
-undefined8 FUN_14076acb0(longlong param_1)
-
+// undefined8 FUN_14076acb0(longlong param_1)
+undefined8 MatchMakingLibLoader(longlong param_1)
 {
     undefined8 *puVar1;
     undefined8 uVar2;
@@ -5771,8 +5765,8 @@ undefined8 FUN_14076dac0(longlong param_1)
 }
 
 
-
-undefined4 FUN_14076edd0(longlong param_1)
+// undefined4 FUN_14076edd0(longlong param_1)
+undefined4 LeaderboardLibLoader(longlong param_1)
 
 {
     undefined8 *puVar1;

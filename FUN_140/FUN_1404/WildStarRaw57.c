@@ -891,9 +891,8 @@ undefined8 FUN_1404f24b0(longlong param_1)
 
 
 // WARNING: Globals starting with '_' overlap smaller symbols at the same address
-
-undefined4 FUN_1404f25a0(longlong param_1)
-
+// undefined4 FUN_1404f25a0(longlong param_1)
+undefined4 StorefrontLibLoader(longlong param_1)
 {
     undefined8 *puVar1;
     ulonglong uVar2;
@@ -1004,9 +1003,8 @@ undefined4 FUN_1404f25a0(longlong param_1)
 
 
 // WARNING: Globals starting with '_' overlap smaller symbols at the same address
-
-undefined8 FUN_1404f2860(longlong param_1)
-
+// undefined8 FUN_1404f2860(longlong param_1)
+undefined8 StorefrontLibLoader(longlong param_1)
 {
     undefined8 *puVar1;
     ulonglong uVar2;
@@ -4278,7 +4276,7 @@ void FUN_1404f8440(longlong param_1)
         puVar8 = puVar8 + 2;
     } while (uVar12 < 0x38);
     *(undefined8 *)((longlong)&uStack40 + lVar4) = 0x1404f852f;
-    FUN_1400569b0(lVar2,"Apollo.CostumeWindow");
+    LuaElementLoaderOrSo(lVar2,"Apollo.CostumeWindow");
     puVar8 = *(undefined8 **)(lVar2 + 0x10);
     iVar1 = *(int *)(puVar8 + -1);
     if (iVar1 == 2) {

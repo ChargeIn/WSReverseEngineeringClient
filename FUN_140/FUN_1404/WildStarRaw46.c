@@ -5979,56 +5979,56 @@ undefined8 FUN_140434a00(longlong param_1)
         FUN_140057020(lVar2,"AccountItemLib",&PTR_s_GetPendingAccountItemGroups_140b69660);
         FUN_1404e7f60(lVar2);
         *(longlong *)(lVar2 + 0x10) = *(longlong *)(lVar2 + 0x10) + -0x10;
-        FUN_1404f2860(lVar2);
-        FUN_1406f30a0(lVar2);
+        StorefrontLibLoader(lVar2);
+        RewardTrackLibLoader(lVar2);
         FUN_140057020(lVar2,"LiveEventsLib",&PTR_s_GetVisibleLiveEventList_140b72640);
         *(longlong *)(lVar2 + 0x10) = *(longlong *)(lVar2 + 0x10) + -0x10;
-        FUN_1406f3de0(lVar2);
+        PetCustomizationLibLoader(lVar2);
         *(longlong *)(lVar2 + 0x10) = *(longlong *)(lVar2 + 0x10) + -0x10;
-        FUN_140709460(lVar2);
-        FUN_14070f700(lVar2);
-        FUN_1406f1490(lVar2);
-        FUN_140711f80(lVar2);
-        FUN_140712510(lVar2);
+        GameLibLoader(lVar2);
+        FriendshipLibLoader(lVar2);
+        PlayerPathLibLoader(lVar2);
+        ChallengesLibLoader(lVar2);
+        CREDDExchangeLibLoader(lVar2);
         puVar5 = (undefined8 *)FUN_14018b280(1);
         puVar3 = puVar9;
         if (puVar5 != (undefined8 *)0x0) {
-            FUN_1400f2440(lVar8,"PetCustomization",FUN_1406b6b50);
+            FUN_1400f2440(lVar8,"PetCustomization",LoadPetCustomization);
             puVar3 = puVar5;
         }
         *(undefined8 **)(param_1 + 0x200) = puVar3;
         puVar5 = (undefined8 *)FUN_14018b280(1);
         puVar3 = puVar9;
         if (puVar5 != (undefined8 *)0x0) {
-            FUN_1400f2440(lVar8,"PetFlair",FUN_1406b63d0);
+            FUN_1400f2440(lVar8,"PetFlair",LoadPetFlair);
             puVar3 = puVar5;
         }
         *(undefined8 **)(param_1 + 0x208) = puVar3;
         puVar5 = (undefined8 *)FUN_14018b280(1);
         puVar3 = puVar9;
         if (puVar5 != (undefined8 *)0x0) {
-            FUN_1400f2440(lVar8,"RewardTrack",FUN_1406b9550);
+            FUN_1400f2440(lVar8,"RewardTrack",LoadRewardTrack);
             puVar3 = puVar5;
         }
         *(undefined8 **)(param_1 + 0x210) = puVar3;
         puVar5 = (undefined8 *)FUN_14018b280(1);
         puVar3 = puVar9;
         if (puVar5 != (undefined8 *)0x0) {
-            FUN_1400f2440(lVar8,&DAT_140af19f4,FUN_140413a20);
+            FUN_1400f2440(lVar8,&DAT_140af19f4,LoadItemData);
             puVar3 = puVar5;
         }
         *(undefined8 **)(param_1 + 0x218) = puVar3;
         puVar5 = (undefined8 *)FUN_14018b280(1);
         puVar3 = puVar9;
         if (puVar5 != (undefined8 *)0x0) {
-            FUN_1400f2440(lVar8,"Money",CurrencyHandler);
+            FUN_1400f2440(lVar8,"Money",LoadCurrency);
             puVar3 = puVar5;
         }
         *(undefined8 **)(param_1 + 0x220) = puVar3;
         puVar5 = (undefined8 *)FUN_14018b280(1);
         puVar3 = puVar9;
         if (puVar5 != (undefined8 *)0x0) {
-            FUN_1400f2440(lVar8,&DAT_140b29fe8,FUN_1406481d0);
+            FUN_1400f2440(lVar8,&DAT_140b29fe8,LoadUnit);
             puVar3 = puVar5;
         }
         *(undefined8 **)(param_1 + 0x228) = puVar3;
@@ -6042,7 +6042,7 @@ undefined8 FUN_140434a00(longlong param_1)
         puVar5 = (undefined8 *)FUN_14018b280(1);
         puVar3 = puVar9;
         if (puVar5 != (undefined8 *)0x0) {
-            FUN_1400f2440(lVar8,"CREDDExchangeOrder",FUN_1406f1c70);
+            FUN_1400f2440(lVar8,"CREDDExchangeOrder",LoadCREDDExchangeOrder);
             puVar3 = puVar5;
         }
         lVar2 = *(longlong *)(param_1 + 0x60);

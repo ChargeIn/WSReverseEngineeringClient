@@ -2006,7 +2006,7 @@ void FUN_1406e7f70(longlong param_1)
         ppuVar11 = ppuVar1;
     } while (uVar15 < 0x1c);
     *(undefined8 *)((longlong)&uStack48 + lVar7) = 0x1406e805f;
-    FUN_1400569b0(lVar4);
+    LuaElementLoaderOrSo(lVar4);
     puVar2 = *(undefined8 **)(lVar4 + 0x10);
     iVar3 = *(int *)(puVar2 + -1);
     if (iVar3 == 2) {
@@ -6473,9 +6473,8 @@ undefined8 FUN_1406f1430(longlong param_1)
 }
 
 
-
-undefined8 FUN_1406f1490(longlong param_1)
-
+// undefined8 FUN_1406f1490(longlong param_1)
+undefined8 PlayerPathLibLoader(longlong param_1)
 {
     undefined8 *puVar1;
     longlong lVar2;
@@ -6736,8 +6735,8 @@ ulonglong FUN_1406f1b00(longlong param_1,longlong param_2)
 }
 
 
-
-undefined8 FUN_1406f1c70(longlong param_1)
+// undefined8 FUN_1406f1c70(longlong param_1)
+undefined8 LoadCREDDExchangeOrder(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -6749,7 +6748,7 @@ undefined8 FUN_1406f1c70(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.CREDDExchangeOrder");
+    LuaElementLoaderOrSo(param_1,"Game.CREDDExchangeOrder");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -7369,9 +7368,8 @@ undefined8 FUN_1406f3050(longlong param_1)
 }
 
 
-
-undefined4 FUN_1406f30a0(longlong param_1)
-
+// undefined4 FUN_1406f30a0(longlong param_1)
+undefined4 RewardTrackLibLoader(longlong param_1)
 {
     undefined8 *puVar1;
     undefined8 uVar2;
@@ -7814,9 +7812,8 @@ undefined8 FUN_1406f3a90(undefined8 param_1)
 }
 
 
-
-undefined8 FUN_1406f3ad0(undefined8 param_1)
-
+// undefined8 FUN_1406f3ad0(undefined8 param_1)
+undefined8 LiveEventsLibLoader(undefined8 param_1)
 {
     FUN_140057020(param_1,"LiveEventsLib",&PTR_s_GetVisibleLiveEventList_140b72640);
     return 1;
@@ -7956,9 +7953,8 @@ undefined8 FUN_1406f3d40(longlong param_1)
 }
 
 
-
-undefined4 FUN_1406f3de0(longlong param_1)
-
+// undefined4 FUN_1406f3de0(longlong param_1)
+undefined4 PetCustomizationLibLoader(longlong param_1)
 {
     undefined8 *puVar1;
     longlong lVar2;

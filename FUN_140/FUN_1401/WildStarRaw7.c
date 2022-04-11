@@ -1969,7 +1969,7 @@ undefined *puVar6;
 undefined8 local_18;
 undefined4 local_10;
 
-FUN_1400569b0(param_1,
+LuaElementLoaderOrSo(param_1,
 "Apollo.ApolloColor");
 puVar1 = *(undefined8 * *)(param_1 + 0x10);
 *
@@ -4062,7 +4062,7 @@ undefined *puVar6;
 undefined8 local_18;
 undefined4 local_10;
 
-FUN_1400569b0(param_1,
+LuaElementLoaderOrSo(param_1,
 "Vector2");
 puVar1 = *(undefined8 * *)(param_1 + 0x10);
 *
@@ -5370,7 +5370,7 @@ undefined *puVar6;
 undefined8 local_18;
 undefined4 local_10;
 
-FUN_1400569b0(param_1,
+LuaElementLoaderOrSo(param_1,
 "Vector3");
 puVar1 = *(undefined8 * *)(param_1 + 0x10);
 *
@@ -6858,7 +6858,7 @@ local_48 = "__unm";
 local_40 = FUN_14014a750;
 local_38 = 0;
 local_30 = 0;
-FUN_1400569b0(param_1,
+LuaElementLoaderOrSo(param_1,
 "AaRect");
 puVar1 = *(undefined8 * *)(param_1 + 0x10);
 *
@@ -8036,7 +8036,7 @@ undefined *puVar6;
 undefined8 local_18;
 undefined4 local_10;
 
-FUN_1400569b0(param_1,
+LuaElementLoaderOrSo(param_1,
 "Quaternion");
 puVar1 = *(undefined8 * *)(param_1 + 0x10);
 *
@@ -9522,7 +9522,7 @@ undefined *puVar6;
 undefined8 local_18;
 undefined4 local_10;
 
-FUN_1400569b0(param_1,
+LuaElementLoaderOrSo(param_1,
 "EulerAngles");
 puVar1 = *(undefined8 * *)(param_1 + 0x10);
 *
@@ -11241,7 +11241,7 @@ undefined *puVar6;
 undefined8 local_18;
 undefined4 local_10;
 
-FUN_1400569b0(param_1,
+LuaElementLoaderOrSo(param_1,
 "Apollo.WindowLocation");
 puVar1 = *(undefined8 * *)(param_1 + 0x10);
 *

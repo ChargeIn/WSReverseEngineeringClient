@@ -421,8 +421,8 @@ undefined8 FUN_140747720(longlong param_1) {
     return 1;
 }
 
-
-undefined8 FUN_140747770(undefined8 param_1) {
+// undefined8 FUN_140747770(undefined8 param_1)
+undefined8 MacrosLibLoader(undefined8 param_1) {
     FUN_140057020(param_1, "MacrosLib", &PTR_s_GetMacrosList_140b750d0);
     return 1;
 }
@@ -1335,8 +1335,8 @@ undefined8 FUN_1407495c0(longlong param_1) {
     return 1;
 }
 
-
-undefined8 FUN_140749690(longlong param_1) {
+// undefined8 FUN_140749690(longlong param_1)
+undefined8 AbilityBookLoader(longlong param_1) {
     undefined8 * puVar1;
     longlong lVar2;
     undefined8 uVar3;
@@ -2856,8 +2856,8 @@ undefined8 FUN_14074be30(longlong param_1) {
     return 1;
 }
 
-
-undefined8 FUN_14074be90(longlong param_1) {
+// undefined8 FUN_14074be90(longlong param_1)
+undefined8 P2PTradingLoader(longlong param_1) {
     undefined8 * puVar1;
     longlong lVar2;
     undefined8 local_38;
@@ -4282,8 +4282,8 @@ undefined8 FUN_14074e4f0(longlong param_1) {
     return 1;
 }
 
-
-undefined4 FUN_14074ff00(longlong param_1) {
+// undefined4 FUN_14074ff00(longlong param_1)
+undefined4 AchievementsLibLoader(longlong param_1) {
     undefined8 * puVar1;
     undefined8 uVar2;
     longlong lVar3;
@@ -5050,8 +5050,8 @@ undefined8 FUN_140752670(undefined8 param_1) {
     return 0;
 }
 
-
-undefined8 FUN_140752690(longlong param_1) {
+// undefined8 FUN_140752690(longlong param_1)
+undefined8 CombatFloaterLoader(longlong param_1) {
     undefined8 * puVar1;
     longlong lVar2;
     undefined8 uVar3;
@@ -6000,8 +6000,8 @@ undefined8 FUN_140753ff0(longlong param_1) {
     } while (true);
 }
 
-
-undefined8 FUN_1407545d0(undefined8 param_1) {
+// undefined8 FUN_1407545d0(undefined8 param_1)
+undefined8 MessageManagerLibLoader(undefined8 param_1) {
     FUN_140057020(param_1, "MessageManagerLib", &PTR_s_DisplayStoryPanel_140b75630);
     return 1;
 }
@@ -6479,8 +6479,8 @@ undefined8 FUN_1407552c0(longlong param_1) {
     return 0;
 }
 
-
-undefined8 FUN_140755330(longlong param_1) {
+// undefined8 FUN_140755330(longlong param_1)
+undefined8 CSIsLibLoader(longlong param_1) {
     undefined8 * puVar1;
     longlong lVar2;
     undefined8 local_18;
@@ -7445,8 +7445,8 @@ undefined8 FUN_140757b90(longlong param_1) {
     return 0;
 }
 
-
-undefined8 FUN_140757c50(longlong param_1) {
+// undefined8 FUN_140757c50(longlong param_1)
+undefined8 CommunicatorLibLoader(longlong param_1) {
     undefined8 * puVar1;
     longlong lVar2;
     undefined8 local_18;
@@ -7626,8 +7626,8 @@ undefined8 FUN_140758510(longlong param_1) {
     return 1;
 }
 
-
-undefined8 FUN_140758630(longlong param_1) {
+// undefined8 FUN_140758630(longlong param_1)
+undefined8 ActionSetLibLoader(longlong param_1) {
     undefined8 * puVar1;
     undefined8 uVar2;
     longlong lVar3;
@@ -8791,7 +8791,8 @@ void FUN_14075b1d0(longlong param_1, longlong param_2, longlong param_3, undefin
 
 // WARNING: Globals starting with '_' overlap smaller symbols at the same address
 
-void FUN_14075b350(longlong param_1) {
+// void FUN_14075b350(longlong param_1)
+void GuildLibLoader(longlong param_1) {
     ushort uVar1;
     undefined8 * puVar2;
     double *pdVar3;

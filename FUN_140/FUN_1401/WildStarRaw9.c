@@ -679,7 +679,7 @@ void FUN_14016abd0(longlong param_1) {
         puVar9 = puVar9 + 2;
     } while (uVar10 < 0x12);
     *(undefined8 * )((longlong) & uStack40 + lVar4) = 0x14016acaf;
-    FUN_1400569b0(lVar2, "Apollo.ProgressBar");
+    LuaElementLoaderOrSo(lVar2, "Apollo.ProgressBar");
     puVar9 = *(undefined8 * *)(lVar2 + 0x10);
     iVar1 = *(int *) (puVar9 + -1);
     if (iVar1 == 2) {
@@ -4559,7 +4559,7 @@ void FUN_140171b80(longlong param_1) {
         puVar9 = puVar9 + 2;
     } while (uVar10 < 0x1a);
     *(undefined8 * )((longlong) & uStack40 + lVar4) = 0x140171c5f;
-    FUN_1400569b0(lVar2, "Apollo.TreeControl");
+    LuaElementLoaderOrSo(lVar2, "Apollo.TreeControl");
     puVar9 = *(undefined8 * *)(lVar2 + 0x10);
     iVar1 = *(int *) (puVar9 + -1);
     if (iVar1 == 2) {
@@ -5960,7 +5960,7 @@ void FUN_140173df0(longlong param_1) {
         puVar9 = puVar9 + 2;
     } while (uVar10 < 6);
     *(undefined8 * )((longlong) & uStack40 + lVar4) = 0x140173ecf;
-    FUN_1400569b0(lVar2, "Apollo.Spinner");
+    LuaElementLoaderOrSo(lVar2, "Apollo.Spinner");
     puVar9 = *(undefined8 * *)(lVar2 + 0x10);
     iVar1 = *(int *) (puVar9 + -1);
     if (iVar1 == 2) {
@@ -7348,7 +7348,7 @@ void FUN_1401765b0(longlong param_1) {
         puVar9 = puVar9 + 2;
     } while (uVar10 < 6);
     *(undefined8 * )((longlong) & uStack40 + lVar4) = 0x14017668f;
-    FUN_1400569b0(lVar2, "Apollo.SliderBar");
+    LuaElementLoaderOrSo(lVar2, "Apollo.SliderBar");
     puVar9 = *(undefined8 * *)(lVar2 + 0x10);
     iVar1 = *(int *) (puVar9 + -1);
     if (iVar1 == 2) {
@@ -8116,7 +8116,7 @@ void FUN_140177720(longlong param_1) {
         puVar9 = puVar9 + 2;
     } while (uVar10 < 0x11);
     *(undefined8 * )((longlong) & uStack40 + lVar4) = 0x1401777ff;
-    FUN_1400569b0(lVar2, "Apollo.ComboBox");
+    LuaElementLoaderOrSo(lVar2, "Apollo.ComboBox");
     puVar9 = *(undefined8 * *)(lVar2 + 0x10);
     iVar1 = *(int *) (puVar9 + -1);
     if (iVar1 == 2) {
@@ -9755,7 +9755,7 @@ void FUN_14017a7d0(longlong param_1) {
         puVar9 = puVar9 + 2;
     } while (uVar10 < 6);
     *(undefined8 * )((longlong) & uStack40 + lVar4) = 0x14017a8af;
-    FUN_1400569b0(lVar2, "Apollo.TabWindow");
+    LuaElementLoaderOrSo(lVar2, "Apollo.TabWindow");
     puVar9 = *(undefined8 * *)(lVar2 + 0x10);
     iVar1 = *(int *) (puVar9 + -1);
     if (iVar1 == 2) {

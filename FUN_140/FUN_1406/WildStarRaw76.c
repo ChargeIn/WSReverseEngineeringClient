@@ -5213,9 +5213,8 @@ undefined8 FUN_140679190(longlong param_1)
 }
 
 
-
-undefined8 FUN_140679210(longlong param_1)
-
+// undefined8 FUN_140679210(longlong param_1)
+undefined8 LoadPathEpisode(longlong param_1)
 {
     undefined8 *puVar1;
     longlong *plVar2;
@@ -5226,7 +5225,7 @@ undefined8 FUN_140679210(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.PathEpisode");
+    LuaElementLoaderOrSo(param_1,"Game.PathEpisode");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -7317,8 +7316,8 @@ undefined8 FUN_140680f60(longlong param_1)
 }
 
 
-
-undefined8 FUN_140680fe0(longlong param_1)
+// undefined8 FUN_140680fe0(longlong param_1)
+undefined8 LoadSettlerImprovement(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -7330,7 +7329,7 @@ undefined8 FUN_140680fe0(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.SettlerImprovement");
+    LuaElementLoaderOrSo(param_1,"Game.SettlerImprovement");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -7800,8 +7799,8 @@ undefined8 FUN_140682b40(longlong param_1)
 }
 
 
-
-undefined8 FUN_140682bd0(longlong param_1)
+// undefined8 FUN_140682bd0(longlong param_1)
+undefined8 LoadSoldierEvent(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -7813,7 +7812,7 @@ undefined8 FUN_140682bd0(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.SoldierEvent");
+    LuaElementLoaderOrSo(param_1,"Game.SoldierEvent");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -8490,8 +8489,8 @@ undefined8 FUN_140683d30(longlong param_1)
 }
 
 
-
-undefined8 FUN_140684050(longlong param_1)
+// undefined8 FUN_140684050(longlong param_1)
+undefined8 LoadScientistScanBotProfile(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -8503,7 +8502,7 @@ undefined8 FUN_140684050(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.ScientistScanBotProfile");
+    LuaElementLoaderOrSo(param_1,"Game.ScientistScanBotProfile");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -9216,8 +9215,8 @@ undefined8 FUN_140684ed0(longlong param_1)
 }
 
 
-
-undefined8 FUN_140684f50(longlong param_1)
+// undefined8 FUN_140684f50(longlong param_1)
+undefined8 LoadChallenges(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -9229,7 +9228,7 @@ undefined8 FUN_140684f50(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.Challenges");
+    LuaElementLoaderOrSo(param_1,"Game.Challenges");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -11004,9 +11003,8 @@ undefined8 FUN_140687cc0(longlong param_1)
 }
 
 
-
-undefined4 FUN_140687d40(longlong param_1)
-
+// undefined4 FUN_140687d40(longlong param_1)
+undefined4 LoadPublicEvent(longlong param_1)
 {
     undefined8 *puVar1;
     longlong *plVar2;
@@ -11018,7 +11016,7 @@ undefined4 FUN_140687d40(longlong param_1)
     undefined8 local_38;
     undefined4 local_30;
 
-    FUN_1400569b0(param_1,"Game.PublicEvent");
+    LuaElementLoaderOrSo(param_1,"Game.PublicEvent");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);

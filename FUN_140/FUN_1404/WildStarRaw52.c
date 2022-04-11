@@ -2091,7 +2091,7 @@ undefined8 FUN_140490ae0(longlong *param_1)
                                     goto LAB_140491246;
                                 }
                                 if ((_DAT_140c64500 == 0) &&
-                                    (iVar4 = FUN_140221be0(), plVar12 = DAT_140c64300, -1 < iVar4))
+                                    (iVar4 = PathSettlerInfrastructureHandler(), plVar12 = DAT_140c64300, -1 < iVar4))
                                     goto LAB_14049123e;
                             }
                             LAB_14049124e:
@@ -3649,7 +3649,7 @@ undefined8 FUN_1404931c0(undefined8 param_1,undefined4 param_2)
     }
     if (DAT_140c63838 == (code *)0x0) {
         if (_DAT_140c650b0 == 0) {
-            iVar4 = FUN_1402217a0();
+            iVar4 = PathSettlerImprovementGroup();
             if (iVar4 < 0) {
                 uVar3 = 0;
             }
@@ -3668,7 +3668,7 @@ undefined8 FUN_1404931c0(undefined8 param_1,undefined4 param_2)
     if (uVar3 != 0) {
         do {
             if (DAT_140c63848 == (code *)0x0) {
-                if ((_DAT_140c650b0 == 0) && (iVar4 = FUN_1402217a0(), -1 < iVar4)) {
+                if ((_DAT_140c650b0 == 0) && (iVar4 = PathSettlerImprovementGroup(), -1 < iVar4)) {
                     puVar6 = (uint *)(**(code **)(*DAT_140c64660 + 0x20))(DAT_140c64660,uVar22);
                     goto LAB_1404935e9;
                 }
@@ -3745,7 +3745,7 @@ undefined8 FUN_1404931c0(undefined8 param_1,undefined4 param_2)
     }
     if (DAT_140c63838 == (code *)0x0) {
         if (_DAT_140c64500 == 0) {
-            iVar4 = FUN_140221be0();
+            iVar4 = PathSettlerInfrastructureHandler();
             if (iVar4 < 0) {
                 local_res10 = 0;
             }
@@ -3764,7 +3764,7 @@ undefined8 FUN_1404931c0(undefined8 param_1,undefined4 param_2)
     if (local_res10 != 0) {
         do {
             if (DAT_140c63848 == (code *)0x0) {
-                if ((_DAT_140c64500 == 0) && (iVar4 = FUN_140221be0(), -1 < iVar4)) {
+                if ((_DAT_140c64500 == 0) && (iVar4 = PathSettlerInfrastructureHandler(), -1 < iVar4)) {
                     puVar6 = (uint *)(**(code **)(*DAT_140c64300 + 0x20))(DAT_140c64300,uVar3);
                     goto LAB_1404937db;
                 }

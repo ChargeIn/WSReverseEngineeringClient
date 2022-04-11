@@ -4984,9 +4984,8 @@ undefined8 FUN_140648120(undefined8 param_1,longlong param_2,undefined4 *param_3
 }
 
 
-
-undefined8 FUN_1406481d0(longlong param_1)
-
+//undefined8 FUN_1406481d0(longlong param_1)
+undefined8 LoadUnit(longlong param_1)
 {
     undefined8 *puVar1;
     longlong *plVar2;
@@ -4997,7 +4996,7 @@ undefined8 FUN_1406481d0(longlong param_1)
     undefined8 local_38;
     undefined4 local_30;
 
-    FUN_1400569b0(param_1,"Game.Unit");
+    LuaElementLoaderOrSo(param_1,"Game.Unit");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);

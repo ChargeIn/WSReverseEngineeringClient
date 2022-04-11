@@ -11056,7 +11056,7 @@ void FUN_1405ba670(longlong param_1)
         puVar8 = puVar8 + 2;
     } while (uVar12 < 2);
     *(undefined8 *)((longlong)&uStack40 + lVar4) = 0x1405ba75f;
-    FUN_1400569b0(lVar2,"Apollo.BuffWindow");
+    LuaElementLoaderOrSo(lVar2,"Apollo.BuffWindow");
     puVar8 = *(undefined8 **)(lVar2 + 0x10);
     iVar1 = *(int *)(puVar8 + -1);
     if (iVar1 == 2) {
@@ -11519,7 +11519,7 @@ void FUN_1405bb040(longlong param_1)
         puVar8 = puVar8 + 2;
     } while (uVar12 == 0);
     *(undefined8 *)((longlong)&uStack40 + lVar4) = 0x1405bb12f;
-    FUN_1400569b0(lVar2,"Apollo.BuffContainerWindow");
+    LuaElementLoaderOrSo(lVar2,"Apollo.BuffContainerWindow");
     puVar8 = *(undefined8 **)(lVar2 + 0x10);
     iVar1 = *(int *)(puVar8 + -1);
     if (iVar1 == 2) {

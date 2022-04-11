@@ -2193,7 +2193,7 @@ void FUN_140131300(longlong param_1) {
         puVar9 = puVar9 + 2;
     } while (uVar10 < 0xe);
     *(undefined8 * )((longlong) & uStack40 + lVar4) = 0x1401313df;
-    FUN_1400569b0(lVar2, "Apollo.Button");
+    LuaElementLoaderOrSo(lVar2, "Apollo.Button");
     puVar9 = *(undefined8 * *)(lVar2 + 0x10);
     iVar1 = *(int *) (puVar9 + -1);
     if (iVar1 == 2) {
@@ -3317,7 +3317,7 @@ undefined8 FUN_1401339d0(longlong param_1) {
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1, "Apollo.ApolloTimer");
+    LuaElementLoaderOrSo(param_1, "Apollo.ApolloTimer");
     puVar1 = *(undefined8 * *)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 * )(puVar1 + 1) = *(undefined4 * )(puVar1 + -1);

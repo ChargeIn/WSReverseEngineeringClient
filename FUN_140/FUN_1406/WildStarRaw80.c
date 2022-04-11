@@ -587,7 +587,7 @@ void FUN_1406cf770(longlong param_1)
         puVar8 = puVar8 + 2;
     } while (uVar9 < 0xe);
     *(undefined8 *)((longlong)&uStack40 + lVar4) = 0x1406cf8b0;
-    FUN_1400569b0(lVar2,"Apollo.IconButton");
+    LuaElementLoaderOrSo(lVar2,"Apollo.IconButton");
     puVar8 = *(undefined8 **)(lVar2 + 0x10);
     iVar1 = *(int *)(puVar8 + -1);
     if (iVar1 == 2) {
@@ -4073,7 +4073,7 @@ void FUN_1406d7570(longlong param_1)
         puVar8 = puVar8 + 2;
     } while (uVar12 < 0x1c);
     *(undefined8 *)((longlong)&uStack40 + lVar4) = 0x1406d765f;
-    FUN_1400569b0(lVar2,"Apollo.BagWindow");
+    LuaElementLoaderOrSo(lVar2,"Apollo.BagWindow");
     puVar8 = *(undefined8 **)(lVar2 + 0x10);
     iVar1 = *(int *)(puVar8 + -1);
     if (iVar1 == 2) {
@@ -5263,7 +5263,7 @@ void FUN_1406d97e0(longlong param_1)
         puVar8 = puVar8 + 2;
     } while (uVar12 < 4);
     *(undefined8 *)((longlong)&uStack40 + lVar4) = 0x1406d98cf;
-    FUN_1400569b0(lVar2,"Apollo.ItemSlotWindow");
+    LuaElementLoaderOrSo(lVar2,"Apollo.ItemSlotWindow");
     puVar8 = *(undefined8 **)(lVar2 + 0x10);
     iVar1 = *(int *)(puVar8 + -1);
     if (iVar1 == 2) {
@@ -5500,7 +5500,7 @@ void FUN_1406d9ce0(longlong param_1)
         puVar8 = puVar8 + 2;
     } while (uVar12 == 0);
     *(undefined8 *)((longlong)&uStack40 + lVar4) = 0x1406d9dcf;
-    FUN_1400569b0(lVar2,"Apollo.DragDropFrame");
+    LuaElementLoaderOrSo(lVar2,"Apollo.DragDropFrame");
     puVar8 = *(undefined8 **)(lVar2 + 0x10);
     iVar1 = *(int *)(puVar8 + -1);
     if (iVar1 == 2) {
@@ -6303,7 +6303,7 @@ void FUN_1406db000(longlong param_1)
         puVar8 = puVar8 + 2;
     } while (uVar12 < 6);
     *(undefined8 *)((longlong)&uStack40 + lVar4) = 0x1406db0ef;
-    FUN_1400569b0(lVar2,"Apollo.AbilityItemWindow");
+    LuaElementLoaderOrSo(lVar2,"Apollo.AbilityItemWindow");
     puVar8 = *(undefined8 **)(lVar2 + 0x10);
     iVar1 = *(int *)(puVar8 + -1);
     if (iVar1 == 2) {
@@ -7231,7 +7231,7 @@ void FUN_1406dcf60(longlong param_1)
         puVar8 = puVar8 + 2;
     } while (uVar12 < 6);
     *(undefined8 *)((longlong)&uStack40 + lVar4) = 0x1406dd04f;
-    FUN_1400569b0(lVar2,"Apollo.ProtostarMapWindow");
+    LuaElementLoaderOrSo(lVar2,"Apollo.ProtostarMapWindow");
     puVar8 = *(undefined8 **)(lVar2 + 0x10);
     iVar1 = *(int *)(puVar8 + -1);
     if (iVar1 == 2) {
@@ -7574,7 +7574,7 @@ void FUN_1406ddb40(longlong param_1)
         puVar8 = puVar8 + 2;
     } while (uVar12 < 3);
     *(undefined8 *)((longlong)&uStack40 + lVar4) = 0x1406ddc2f;
-    FUN_1400569b0(lVar2,"Apollo.MannequinSlotWindow");
+    LuaElementLoaderOrSo(lVar2,"Apollo.MannequinSlotWindow");
     puVar8 = *(undefined8 **)(lVar2 + 0x10);
     iVar1 = *(int *)(puVar8 + -1);
     if (iVar1 == 2) {
@@ -8247,7 +8247,7 @@ void FUN_1406dee10(longlong param_1)
         puVar8 = puVar8 + 2;
     } while (uVar12 < 5);
     *(undefined8 *)((longlong)&uStack40 + lVar4) = 0x1406deeff;
-    FUN_1400569b0(lVar2,"Apollo.CashInput");
+    LuaElementLoaderOrSo(lVar2,"Apollo.CashInput");
     puVar8 = *(undefined8 **)(lVar2 + 0x10);
     iVar1 = *(int *)(puVar8 + -1);
     if (iVar1 == 2) {

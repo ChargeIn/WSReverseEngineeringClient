@@ -6540,8 +6540,8 @@ undefined8 FUN_14021c9a0(undefined4 param_1) {
 
 
 // WARNING: Globals starting with '_' overlap smaller symbols at the same address
-
-int FUN_14021cb20(void) {
+// int FUN_14021cb20(void)
+int PathExplorerActivateHandler(void) {
     undefined8 *puVar1;
     int iVar2;
     longlong *plVar3;
@@ -6640,7 +6640,7 @@ undefined8 FUN_14021cd30(void) {
         return uVar2;
     }
     if (_DAT_140c6408c == 0) {
-        iVar1 = FUN_14021cb20();
+        iVar1 = PathExplorerActivateHandler();
         if (-1 < iVar1) {
             // WARNING: Could not recover jumptable at 0x00014021cd7c. Too many branches
             // WARNING: Treating indirect jump as call
@@ -6666,7 +6666,7 @@ undefined8 FUN_14021cd80(undefined4 param_1) {
         return uVar2;
     }
     if (_DAT_140c6408c == 0) {
-        iVar1 = FUN_14021cb20();
+        iVar1 = PathExplorerActivateHandler();
         if (-1 < iVar1) {
             // WARNING: Could not recover jumptable at 0x00014021cdd7. Too many branches
             // WARNING: Treating indirect jump as call
@@ -6692,7 +6692,7 @@ undefined8 FUN_14021cde0(undefined4 param_1) {
         return uVar2;
     }
     if (_DAT_140c6408c == 0) {
-        iVar1 = FUN_14021cb20();
+        iVar1 = PathExplorerActivateHandler();
         if (-1 < iVar1) {
             // WARNING: Could not recover jumptable at 0x00014021ce37. Too many branches
             // WARNING: Treating indirect jump as call
@@ -8286,7 +8286,8 @@ undefined8 FUN_14021f860(undefined4 param_1) {
 
 // WARNING: Globals starting with '_' overlap smaller symbols at the same address
 
-int FUN_14021f9e0(void) {
+// int FUN_14021f9e0(void)
+int PathScientistCreatureInfoHandler(void) {
     undefined8 *puVar1;
     int iVar2;
     longlong *plVar3;
@@ -8385,7 +8386,7 @@ undefined8 FUN_14021fbf0(void) {
         return uVar2;
     }
     if (_DAT_140c63d70 == 0) {
-        iVar1 = FUN_14021f9e0();
+        iVar1 = PathScientistCreatureInfoHandler();
         if (-1 < iVar1) {
             // WARNING: Could not recover jumptable at 0x00014021fc3c. Too many branches
             // WARNING: Treating indirect jump as call
@@ -8411,7 +8412,7 @@ undefined8 FUN_14021fc40(undefined4 param_1) {
         return uVar2;
     }
     if (_DAT_140c63d70 == 0) {
-        iVar1 = FUN_14021f9e0();
+        iVar1 = PathScientistCreatureInfoHandler();
         if (-1 < iVar1) {
             // WARNING: Could not recover jumptable at 0x00014021fc97. Too many branches
             // WARNING: Treating indirect jump as call
@@ -8437,7 +8438,7 @@ undefined8 FUN_14021fca0(undefined4 param_1) {
         return uVar2;
     }
     if (_DAT_140c63d70 == 0) {
-        iVar1 = FUN_14021f9e0();
+        iVar1 = PathScientistCreatureInfoHandler();
         if (-1 < iVar1) {
             // WARNING: Could not recover jumptable at 0x00014021fcf7. Too many branches
             // WARNING: Treating indirect jump as call
@@ -9396,8 +9397,8 @@ undefined8 FUN_140221620(undefined4 param_1) {
 
 
 // WARNING: Globals starting with '_' overlap smaller symbols at the same address
-
-int FUN_1402217a0(void) {
+// int FUN_1402217a0(void)
+int PathSettlerImprovementGroup(void) {
     undefined8 *puVar1;
     int iVar2;
     longlong *plVar3;
@@ -9496,7 +9497,7 @@ undefined8 FUN_1402219b0(void) {
         return uVar2;
     }
     if (_DAT_140c650b0 == 0) {
-        iVar1 = FUN_1402217a0();
+        iVar1 = PathSettlerImprovementGroup();
         if (-1 < iVar1) {
             // WARNING: Could not recover jumptable at 0x0001402219fc. Too many branches
             // WARNING: Treating indirect jump as call
@@ -9522,7 +9523,7 @@ undefined8 FUN_140221a60(undefined4 param_1) {
         return uVar2;
     }
     if (_DAT_140c650b0 == 0) {
-        iVar1 = FUN_1402217a0();
+        iVar1 = PathSettlerImprovementGroup();
         if (-1 < iVar1) {
             // WARNING: Could not recover jumptable at 0x000140221ab7. Too many branches
             // WARNING: Treating indirect jump as call
@@ -9536,8 +9537,8 @@ undefined8 FUN_140221a60(undefined4 param_1) {
 
 
 // WARNING: Globals starting with '_' overlap smaller symbols at the same address
-
-int FUN_140221be0(void) {
+// int FUN_140221be0(void)
+int PathSettlerInfrastructureHandler(void) {
     undefined8 *puVar1;
     int iVar2;
     longlong *plVar3;
@@ -9636,7 +9637,7 @@ undefined8 FUN_140221df0(void) {
         return uVar2;
     }
     if (_DAT_140c64500 == 0) {
-        iVar1 = FUN_140221be0();
+        iVar1 = PathSettlerInfrastructureHandler();
         if (-1 < iVar1) {
             // WARNING: Could not recover jumptable at 0x000140221e3c. Too many branches
             // WARNING: Treating indirect jump as call
@@ -9662,7 +9663,7 @@ undefined8 FUN_140221e40(undefined4 param_1) {
         return uVar2;
     }
     if (_DAT_140c64500 == 0) {
-        iVar1 = FUN_140221be0();
+        iVar1 = PathSettlerInfrastructureHandler();
         if (-1 < iVar1) {
             // WARNING: Could not recover jumptable at 0x000140221e97. Too many branches
             // WARNING: Treating indirect jump as call
@@ -9688,7 +9689,7 @@ undefined8 FUN_140221ea0(undefined4 param_1) {
         return uVar2;
     }
     if (_DAT_140c64500 == 0) {
-        iVar1 = FUN_140221be0();
+        iVar1 = PathSettlerInfrastructureHandler();
         if (-1 < iVar1) {
             // WARNING: Could not recover jumptable at 0x000140221ef7. Too many branches
             // WARNING: Treating indirect jump as call

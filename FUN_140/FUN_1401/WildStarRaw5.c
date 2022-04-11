@@ -11234,7 +11234,7 @@ void FUN_14012a350(longlong param_1) {
     } while (uVar10 < 0xe);
     lVar8 = *(longlong * )(param_1 + 400);
     *(undefined8 * )((longlong) & uStack24 + lVar3) = 0x14012a3e9;
-    FUN_1400569b0(lVar8, "Apollo.XmlDoc");
+    LuaElementLoaderOrSo(lVar8, "Apollo.XmlDoc");
     puVar1 = *(undefined8 * *)(lVar8 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 * )(puVar1 + 1) = *(undefined4 * )(puVar1 + -1);

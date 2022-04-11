@@ -4936,18 +4936,18 @@ undefined8 FUN_140727a70(undefined8 *param_1)
         }
         *param_1 = puVar4;
         lVar3 = *(longlong *)(lVar3 + 400);
-        FUN_140413a20(lVar3);
-        FUN_1406481d0(lVar3);
+        LoadItemData(lVar3);
+        LoadUnit(lVar3);
         FUN_140057020(lVar3,"AccountItemLib",&PTR_s_GetPendingAccountItemGroups_140b69660);
         FUN_1404e7f60(lVar3);
         *(longlong *)(lVar3 + 0x10) = *(longlong *)(lVar3 + 0x10) + -0x10;
-        FUN_140766a30(lVar3);
+        FortunesLibLoader(lVar3);
         *(longlong *)(lVar3 + 0x10) = *(longlong *)(lVar3 + 0x10) + -0x10;
-        FUN_1404f2860(lVar3);
-        FUN_140709460(lVar3);
-        FUN_14070f700(lVar3);
-        FUN_1406f1490(lVar3);
-        FUN_140711f80(lVar3);
+        StorefrontLibLoader(lVar3);
+        GameLibLoader(lVar3);
+        FriendshipLibLoader(lVar3);
+        PlayerPathLibLoader(lVar3);
+        ChallengesLibLoader(lVar3);
         lVar3 = param_1[0xb2];
         *(undefined4 *)(lVar3 + 0xa08) = 0;
         *(longlong *)(lVar3 + 0x9c8) = lVar3;
@@ -7789,8 +7789,8 @@ undefined8 FUN_14072c480(longlong param_1)
 }
 
 
-
-undefined8 FUN_14072c500(longlong param_1)
+// undefined8 FUN_14072c500(longlong param_1)
+undefined8 LoadCharacterTitle(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -7802,7 +7802,7 @@ undefined8 FUN_14072c500(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.CharacterTitle");
+    LuaElementLoaderOrSo(param_1,"Game.CharacterTitle");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -8263,8 +8263,8 @@ undefined8 FUN_14072d160(longlong param_1)
 }
 
 
-
-undefined8 FUN_14072d2a0(longlong param_1)
+// undefined8 FUN_14072d2a0(longlong param_1)
+undefined8 LoadEpisode(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -8276,7 +8276,7 @@ undefined8 FUN_14072d2a0(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.Episode");
+    LuaElementLoaderOrSo(param_1,"Game.Episode");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -9049,8 +9049,8 @@ undefined8 FUN_14072ed60(longlong param_1)
 }
 
 
-
-undefined8 FUN_14072ee90(longlong param_1)
+// undefined8 FUN_14072ee90(longlong param_1)
+undefined8 LoadDialogResponse(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -9062,7 +9062,7 @@ undefined8 FUN_14072ee90(longlong param_1)
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1,"Game.DialogResponse");
+    LuaElementLoaderOrSo(param_1,"Game.DialogResponse");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);
@@ -9391,8 +9391,8 @@ undefined8 FUN_14072f9c0(longlong param_1)
 
 
 // WARNING: Globals starting with '_' overlap smaller symbols at the same address
-
-undefined8 FUN_14072fae0(longlong param_1)
+// undefined8 FUN_14072fae0(longlong param_1)
+undefined8 LoadChatSystemLib(longlong param_1)
 
 {
     ulonglong uVar1;

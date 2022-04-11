@@ -116,7 +116,7 @@ undefined8 FUN_140008bc0(void) {
     if (((*(uint * )(DAT_140c635f0 + 8) & 1) == 0) || ((*(uint * )(DAT_140c635f0 + 8) & 4) != 0)) {
         return 0x80004005;
     }
-    uVar4 = FUN_140251a40(DAT_140c635f0);
+    uVar4 = InitDirect3D(DAT_140c635f0);
     if (-1 < (int) uVar4) {
         *(uint * )(plVar1 + 8) = *(uint * )(plVar1 + 8) & 0xffffee7f | 0x44;
         FUN_1401a4610();
@@ -1308,7 +1308,7 @@ void FUN_140010240(longlong param_1) {
         FUN_1401ef840();
         FUN_14021c6e0();
         FUN_14024b720();
-        FUN_140221be0();
+        PathSettlerInfrastructureHandler();
         FUN_14021cf60();
         FUN_14021ed20();
         FUN_14021f5a0();
@@ -1318,11 +1318,11 @@ void FUN_140010240(longlong param_1) {
         FUN_14021e8e0();
         FUN_14021e060();
         FUN_14021e4a0();
-        FUN_140224660();
+        PathSoldierTowerDefenseHandler();
         FUN_1402239a0();
         FUN_140223de0();
         FUN_140222020();
-        FUN_1402217a0();
+        PathSettlerImprovementGroup();
         FUN_140222460();
         FUN_140220260();
         FUN_1402206a0();
@@ -1447,7 +1447,7 @@ void FUN_140010240(longlong param_1) {
         FUN_14024bfa0();
         FUN_1401f99c0();
         FUN_1401f66c0();
-        FUN_14021f9e0();
+        PathScientistCreatureInfoHandler();
         FUN_1401ed200();
         FUN_1401f2b40();
         FUN_1402171e0();
@@ -13009,7 +13009,7 @@ void FUN_140023c00(longlong param_1) {
     *(longlong * )(lVar1 + 0x10) = *(longlong * )(lVar1 + 0x10) + -0x10;
     FUN_140057020(lVar1, "AlienFxLib", &PTR_s_HasDevice_140b69b90);
     *(longlong * )(lVar1 + 0x10) = *(longlong * )(lVar1 + 0x10) + -0x10;
-    FUN_1404f2860(lVar1);
+    StorefrontLibLoader(lVar1);
     return;
 }
 
@@ -27410,7 +27410,7 @@ void FUN_14003e5b0(longlong *param_1) {
     FUN_1400016d0(param_1[9]);
     lVar4 = FUN_14018b280(1);
     if (lVar4 != 0) {
-        FUN_1400f2440(lVar1 + 0x180, "Money", CurrencyHandler);
+        FUN_1400f2440(lVar1 + 0x180, "Money", LoadCurrency);
         lVar6 = lVar4;
     }
     param_1[0x11] = lVar6;
@@ -33772,7 +33772,7 @@ undefined8 FUN_140049d20(longlong param_1) {
     undefined4 local_10;
 
     lVar1 = *(longlong * )(param_1 + 400);
-    FUN_1400569b0(lVar1, "Client.ScreenModelActor");
+    LuaElementLoaderOrSo(lVar1, "Client.ScreenModelActor");
     puVar2 = *(undefined8 * *)(lVar1 + 0x10);
     *puVar2 = puVar2[-2];
     *(undefined4 * )(puVar2 + 1) = *(undefined4 * )(puVar2 + -1);
@@ -36100,7 +36100,7 @@ void FUN_14004dcf0(longlong param_1) {
         FUN_14018b900(puVar4, 0);
     }
     lVar1 = *(longlong * )(param_1 + 400);
-    FUN_1400569b0(lVar1, "Client.ScreenModelManager");
+    LuaElementLoaderOrSo(lVar1, "Client.ScreenModelManager");
     puVar4 = *(undefined8 * *)(lVar1 + 0x10);
     *puVar4 = puVar4[-2];
     *(undefined4 * )(puVar4 + 1) = *(undefined4 * )(puVar4 + -1);
@@ -41278,8 +41278,8 @@ ulonglong FUN_1400568d0(undefined8 param_1) {
     } while (true);
 }
 
-
-undefined8 FUN_1400569b0(longlong param_1, longlong param_2) {
+// undefined8 FUN_1400569b0(longlong param_1, longlong param_2)
+undefined8 LuaElementLoaderOrSo(longlong param_1, longlong param_2) {
     longlong lVar1;
     undefined8 *puVar2;
     undefined8 uVar3;

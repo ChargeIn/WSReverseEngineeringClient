@@ -7411,8 +7411,8 @@ void FUN_1404e7f60(longlong param_1) {
     return;
 }
 
-
-undefined8 FUN_1404e9220(undefined8 param_1) {
+// undefined8 FUN_1404e9220(undefined8 param_1)
+undefined8 AccountItemLibLoader(undefined8 param_1) {
     FUN_140057020(param_1, "AccountItemLib", &PTR_s_GetPendingAccountItemGroups_140b698c0);
     FUN_1404e7f60(param_1);
     return 1;
@@ -7924,8 +7924,8 @@ ulonglong FUN_1404e9f70(longlong param_1) {
     return (ulonglong) uVar2;
 }
 
-
-undefined8 FUN_1404ea090(longlong param_1) {
+// undefined8 FUN_1404ea090(longlong param_1)
+undefined8 AlienFxLibLoader(longlong param_1) {
     undefined8 * puVar1;
     longlong lVar2;
     undefined8 uVar3;

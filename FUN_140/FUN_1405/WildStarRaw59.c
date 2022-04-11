@@ -3590,7 +3590,7 @@ void FUN_1405271c0(longlong param_1)
         puVar8 = puVar8 + 2;
     } while (uVar12 == 0);
     *(undefined8 *)((longlong)&uStack40 + lVar4) = 0x1405272af;
-    FUN_1400569b0(lVar2,"Apollo.ActionConfirmButton");
+    LuaElementLoaderOrSo(lVar2,"Apollo.ActionConfirmButton");
     puVar8 = *(undefined8 **)(lVar2 + 0x10);
     iVar1 = *(int *)(puVar8 + -1);
     if (iVar1 == 2) {
@@ -10271,7 +10271,7 @@ void FUN_1405379e0(longlong param_1)
         puVar8 = puVar8 + 2;
     } while (uVar12 < 0x4d);
     *(undefined8 *)((longlong)&uStack40 + lVar4) = 0x140537acf;
-    FUN_1400569b0(lVar2);
+    LuaElementLoaderOrSo(lVar2);
     puVar8 = *(undefined8 **)(lVar2 + 0x10);
     iVar1 = *(int *)(puVar8 + -1);
     if (iVar1 == 2) {
@@ -11403,7 +11403,7 @@ void FUN_140538fd0(longlong param_1)
             lVar5 = FUN_14018b280(0x188,0);
             puVar6 = puVar9;
             if (lVar5 != 0) {
-                puVar6 = (undefined8 *)FUN_14050a3c0(lVar5);
+                puVar6 = (undefined8 *)LoadGameLibs(lVar5);
             }
             *(undefined8 **)(param_1 + 0x7360) = puVar6;
             FUN_1400f2440(*(longlong *)(param_1 + 0x7340) + 0x180,"DemoSummary",&LAB_140513c50);

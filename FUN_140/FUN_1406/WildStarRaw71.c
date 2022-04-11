@@ -10739,7 +10739,7 @@ undefined8 FUN_140616f80(longlong param_1)
     uVar3 = 0;
     local_res8 = param_1;
     if (DAT_140c63838 == (code *)0x0) {
-        if ((_DAT_140c64284 == 0) && (iVar4 = FUN_140224660(), uVar2 = uVar3, -1 < iVar4)) {
+        if ((_DAT_140c64284 == 0) && (iVar4 = PathSoldierTowerDefenseHandler(), uVar2 = uVar3, -1 < iVar4)) {
             uVar2 = (**(code **)(*DAT_140c63b28 + 0x28))();
         }
     }
@@ -10750,7 +10750,7 @@ undefined8 FUN_140616f80(longlong param_1)
     if (uVar2 != 0) {
         do {
             if (DAT_140c63848 == (code *)0x0) {
-                if ((_DAT_140c64284 == 0) && (iVar4 = FUN_140224660(), -1 < iVar4)) {
+                if ((_DAT_140c64284 == 0) && (iVar4 = PathSoldierTowerDefenseHandler(), -1 < iVar4)) {
                     puVar5 = (undefined4 *)(**(code **)(*DAT_140c63b28 + 0x20))(DAT_140c63b28,uVar15);
                     goto LAB_140617048;
                 }

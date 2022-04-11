@@ -4732,7 +4732,8 @@ void FUN_1402519e0(undefined8 *param_1) {
 // WARNING: Could not reconcile some variable overlaps
 // WARNING: Globals starting with '_' overlap smaller symbols at the same address
 
-void FUN_140251a40(longlong *param_1) {
+// void FUN_140251a40(longlong *param_1)
+void InitDirect3D(longlong *param_1) {
     WCHAR WVar1;
     int iVar2;
     UINT UVar3;

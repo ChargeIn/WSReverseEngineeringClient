@@ -7598,8 +7598,8 @@ void FUN_1405a2a60(longlong param_1,undefined8 param_2,longlong *param_3)
 
 
 // WARNING: Globals starting with '_' overlap smaller symbols at the same address
-
-undefined8 FUN_1405a3000(longlong param_1)
+// undefined8 FUN_1405a3000(longlong param_1)
+undefined8 LoadCraftingLib(longlong param_1)
 
 {
     undefined8 *puVar1;
@@ -7621,7 +7621,7 @@ undefined8 FUN_1405a3000(longlong param_1)
         }
         _DAT_140dc3484 = (undefined4)uVar5;
     }
-    FUN_1400569b0(param_1,"Game.Crafting");
+    LuaElementLoaderOrSo(param_1,"Game.Crafting");
     puVar1 = *(undefined8 **)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar1 + -1);

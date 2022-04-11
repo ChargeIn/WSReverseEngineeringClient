@@ -574,7 +574,7 @@ void FUN_14017c140(longlong param_1) {
         puVar9 = puVar9 + 2;
     } while (uVar10 < 2);
     *(undefined8 * )((longlong) & uStack40 + lVar4) = 0x14017c21f;
-    FUN_1400569b0(lVar2, "Apollo.TickerWnd");
+    LuaElementLoaderOrSo(lVar2, "Apollo.TickerWnd");
     puVar9 = *(undefined8 * *)(lVar2 + 0x10);
     iVar1 = *(int *) (puVar9 + -1);
     if (iVar1 == 2) {
@@ -1674,7 +1674,7 @@ void FUN_14017f360(longlong param_1) {
         puVar9 = puVar9 + 2;
     } while (uVar10 < 0xf);
     *(undefined8 * )((longlong) & uStack40 + lVar4) = 0x14017f43f;
-    FUN_1400569b0(lVar2, "Apollo.ModelWindow");
+    LuaElementLoaderOrSo(lVar2, "Apollo.ModelWindow");
     puVar9 = *(undefined8 * *)(lVar2 + 0x10);
     iVar1 = *(int *) (puVar9 + -1);
     if (iVar1 == 2) {
@@ -3082,7 +3082,7 @@ void FUN_140181d80(longlong param_1) {
         puVar9 = puVar9 + 2;
     } while (uVar10 < 2);
     *(undefined8 * )((longlong) & uStack40 + lVar4) = 0x140181e5f;
-    FUN_1400569b0(lVar2, "Apollo.ColorPicker");
+    LuaElementLoaderOrSo(lVar2, "Apollo.ColorPicker");
     puVar9 = *(undefined8 * *)(lVar2 + 0x10);
     iVar1 = *(int *) (puVar9 + -1);
     if (iVar1 == 2) {
@@ -4236,7 +4236,7 @@ undefined8 FUN_140184370(longlong param_1) {
     undefined8 local_18;
     undefined4 local_10;
 
-    FUN_1400569b0(param_1, &DAT_140a3e66c);
+    LuaElementLoaderOrSo(param_1, &DAT_140a3e66c);
     puVar1 = *(undefined8 * *)(param_1 + 0x10);
     *puVar1 = puVar1[-2];
     *(undefined4 * )(puVar1 + 1) = *(undefined4 * )(puVar1 + -1);
@@ -4527,7 +4527,7 @@ void FUN_1401849f0(longlong param_1) {
         puVar9 = puVar9 + 2;
     } while (uVar10 < 2);
     *(undefined8 * )((longlong) & uStack40 + lVar4) = 0x140184acf;
-    FUN_1400569b0(lVar2, "Apollo.IconListBox");
+    LuaElementLoaderOrSo(lVar2, "Apollo.IconListBox");
     puVar9 = *(undefined8 * *)(lVar2 + 0x10);
     iVar1 = *(int *) (puVar9 + -1);
     if (iVar1 == 2) {

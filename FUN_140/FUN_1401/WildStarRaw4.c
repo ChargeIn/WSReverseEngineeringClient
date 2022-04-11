@@ -8103,7 +8103,7 @@ void FUN_140114700(longlong param_1) {
         puVar9 = puVar9 + 2;
     } while (uVar10 < 0x12);
     *(undefined8 * )((longlong) & uStack40 + lVar4) = 0x1401147df;
-    FUN_1400569b0(lVar2, "Apollo.EditBox");
+    LuaElementLoaderOrSo(lVar2, "Apollo.EditBox");
     puVar9 = *(undefined8 * *)(lVar2 + 0x10);
     iVar1 = *(int *) (puVar9 + -1);
     if (iVar1 == 2) {
@@ -9401,7 +9401,7 @@ void FUN_1401176d0(longlong param_1) {
         puVar8 = puVar8 + 2;
     } while (uVar12 < 8);
     *(undefined8 * )((longlong) & uStack40 + lVar4) = 0x1401177bf;
-    FUN_1400569b0(lVar2, "Apollo.MLWindow");
+    LuaElementLoaderOrSo(lVar2, "Apollo.MLWindow");
     puVar8 = *(undefined8 * *)(lVar2 + 0x10);
     iVar1 = *(int *) (puVar8 + -1);
     if (iVar1 == 2) {
@@ -10728,7 +10728,7 @@ void FUN_140119860(longlong param_1) {
     FUN_14014d4a0(lVar2);
     FUN_140184370(lVar2);
     FUN_140121730(lVar2);
-    FUN_1400569b0(lVar2, "CColor");
+    LuaElementLoaderOrSo(lVar2, "CColor");
     puVar9 = *(undefined8 * *)(lVar2 + 0x10);
     *puVar9 = puVar9[-2];
     *(undefined4 * )(puVar9 + 1) = *(undefined4 * )(puVar9 + -1);
@@ -10827,7 +10827,7 @@ void FUN_140119860(longlong param_1) {
         puVar9 = puVar9 + 2;
     } while (uVar10 < 0x10);
     *(undefined8 * )((longlong) & uStack40 + lVar4) = 0x1401833af;
-    FUN_1400569b0(lVar2, "Apollo.MovieWindow");
+    LuaElementLoaderOrSo(lVar2, "Apollo.MovieWindow");
     puVar9 = *(undefined8 * *)(lVar2 + 0x10);
     iVar1 = *(int *) (puVar9 + -1);
     if (iVar1 == 2) {

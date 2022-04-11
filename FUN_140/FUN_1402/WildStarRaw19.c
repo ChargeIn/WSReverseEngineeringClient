@@ -362,8 +362,8 @@ undefined8 FUN_1402244e0(undefined4 param_1) {
 
 
 // WARNING: Globals starting with '_' overlap smaller symbols at the same address
-
-int FUN_140224660(void) {
+// int FUN_140224660(void)
+int PathSoldierTowerDefenseHandler(void) {
     undefined8 *puVar1;
     int iVar2;
     longlong *plVar3;
@@ -462,7 +462,7 @@ undefined8 FUN_140224870(void) {
         return uVar2;
     }
     if (_DAT_140c64284 == 0) {
-        iVar1 = FUN_140224660();
+        iVar1 = PathSoldierTowerDefenseHandler();
         if (-1 < iVar1) {
             // WARNING: Could not recover jumptable at 0x0001402248bc. Too many branches
             // WARNING: Treating indirect jump as call
@@ -488,7 +488,7 @@ undefined8 FUN_140224920(undefined4 param_1) {
         return uVar2;
     }
     if (_DAT_140c64284 == 0) {
-        iVar1 = FUN_140224660();
+        iVar1 = PathSoldierTowerDefenseHandler();
         if (-1 < iVar1) {
             // WARNING: Could not recover jumptable at 0x000140224977. Too many branches
             // WARNING: Treating indirect jump as call

@@ -743,9 +743,8 @@ undefined8 FUN_140711f10(longlong param_1)
 }
 
 
-
-undefined4 FUN_140711f80(longlong param_1)
-
+// undefined4 FUN_140711f80(longlong param_1)
+undefined4 ChallengesLibLoader(longlong param_1)
 {
     undefined8 *puVar1;
     longlong lVar2;
@@ -931,9 +930,8 @@ undefined8 FUN_140712490(void)
 
 
 // WARNING: Removing unreachable block (ram,0x0001407125ab)
-
-undefined4 FUN_140712510(longlong param_1)
-
+// undefined4 FUN_140712510(longlong param_1)
+undefined4 CREDDExchangeLibLoader(longlong param_1)
 {
     undefined8 *puVar1;
     undefined8 uVar2;
